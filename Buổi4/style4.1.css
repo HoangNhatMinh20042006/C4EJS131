@@ -1,0 +1,38 @@
+#border_main{
+    font-family:'Roboto', 'Lato', sans-serif;
+    margin:  auto;
+    width: 550px;
+    box-sizing: border-box;
+    border: 3.5px solid black;}
+.header{
+    font-weight: bold;
+    margin: 3px;
+    padding-left: 5px;
+    padding-right: 55px;
+}
+.up_header{
+    font-size: 30px;
+}
+.nor_header{
+    font-size: large;
+}
+.list_week{
+    font-weight: bold;
+    border: 3.5px solid blue;
+    background-color: rgb(242, 229, 255);
+    margin: 30px;
+    padding: 20px;
+}
+
+.title_list_week{
+    color: blue;
+}
+.italic{
+    font-style: italic;
+}
+.info_list_week{
+    color: black;
+}
+.red_color{
+    color: red;
+}
