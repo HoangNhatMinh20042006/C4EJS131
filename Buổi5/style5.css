@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.header{
+    background-color: rgb(255, 255, 255);
+    
+}
+img{
+    padding: 3px 0px;
+    max-width: 75px;
+    height: auto;
+}
+.container{
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+     
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+a{
+    text-decoration: none;
+}
+.login_button{
+    background-color: rgb(25, 130, 72);
+    color: aliceblue;
+    border-radius: 50px;
+    width: 160px;
+    height: 60px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 40px;
+    margin: 20px;
+}
+.menu{
+    background-color: rgb(181, 137, 49);   
+}
+.menu li a {
+    color: aliceblue;
+    display: block;
+    padding: 18px 20px;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
