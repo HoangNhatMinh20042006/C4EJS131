@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.header{
+    padding: 25px 40px;
+    position: relative;
+    z-index: 10;
+}
+.logo img{
+    width: 180px;
+    height: auto;
+}
+.bgr{
+    background-image:url(https://assets.nflxext.com/ffe/siteui/vlv3/0f07b807-7be1-457d-be88-eb9153d5d4e9/c9061c43-8a1d-46b1-a5e4-9b6faddf4536/VN-vi-20220815-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-image:cover ;
+    background-repeat: no-repeat;    
+    height: 155vh;
+}
+.bgr::before{
+    content:'';
+    background-color: rgb(0, 0,0, .5);
+    position: absolute;
+    width: 100%;
+    height: 155vh;
+}
+.login_body{
+    border: 1px solid black;
+    color: white;
+    position: relative;
+    z-index: 10;
+    background-color: rgb(0, 0,0, .75);
+    width: 500px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 70px;
+    margin-bottom: 10vh;
+}
+.login_body .input input{
+    background-color: rgb(47, 19, 19);
+    width:100%;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.login_body .signin_button button{
+    height: 50px;
+    width: 100%;
+    color: aliceblue;
+    background-color: brown;
+    margin-bottom: 10px;
+}
+.sp{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+.newbie .newbie_need_help {
+    color: cornflowerblue;
+}
+.newbie .newbie_need_help a{
+    color: rgb(234, 234, 234);
+    text-decoration: none;
+
+}
+.newbie .captcha{
+    color: gray;
+    font-size: 14px;
+} 
+.newbie .captcha a{
+    color: rgb(33, 89, 141);
+    font-size: 14px;
+    text-decoration: none;
+}
+.newbie{
+    margin-bottom: 60px ;
+}
+.footer{
+    width: 100%;
+    position: relative;
+    z-index: 10;
+    height: 345px;
+    background-color: rgb(0, 0,0, .75);
+    padding-top: 30px;
+}
+.content{
+    width: 60%;
+    margin: 0 auto;
+}
+.content a{
+    color: aliceblue    ;
+}
+.info{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.item_info span{
+    color: aliceblue;
+}
+.item_info{
+    display: flex;
+    flex-flow: column;
+}
